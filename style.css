@@ -526,7 +526,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -677,11 +677,10 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -695,12 +694,12 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social {
-    max-width: 400px;
+    max-width: 80px;
     margin: auto auto auto auto;
 }
 
@@ -710,7 +709,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -744,8 +743,13 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 50px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 0 0 0;
+    width: 100%;
 }
 
 .avatar {
@@ -871,6 +875,7 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
+        height: auto;
     }
     .bloc {
         padding-left: constant(safe-area-inset-left);
@@ -1041,7 +1046,80 @@ h4 {
     }
 }
 
-.colsm12-h2{
+.mini-titre{
+    font-size: 16px;
+}
+
+.twitter{
     position: relative;
-    z-index: 2000;
+    right: 100px;
+}
+.facebook{
+    position: relative;
+    right: 35px;
+    bottom: 30px;
+}
+.réseau-social{
+    position: relative;
+    left: 35px;
+    bottom: 62px;
+}
+.instagram{
+    position: relative;
+    left: 100px;
+    bottom: 94px;
+}
+@media (min-width: 768px) {
+    .facebook {
+        bottom: 0px;
+    }
+    .réseau-social {
+        bottom: 0px;
+    }
+    .instagram {
+        bottom: 0px;
+    }
+}
+
+blockquote{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+figcaption{
+    color: #333333;
+}
+
+.col-sm-6{
+    margin: 15px 15px 15px 15px;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.col-sm-6 a{
+    width: 320px;
+    height: 320px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+@media (max-width: 450px){
+    .col-sm-6{
+        width: 100%;
+    }
+    .col-sm-6 a{
+        width: 100%;
+        height: 100%;
+    }
+}
+footer h2{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+footer .container{
+    max-height: 110px;
+}
+footer .col-sm-12{
+    max-height: 110px;
 }

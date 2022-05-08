@@ -1063,43 +1063,84 @@ h4 {
 .twitter{
     position:unset;
 }
+.twitter div{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 2px;
+}
 .twitter span{    
     color: #FFFFFF!important;
 }
-.twitter span:hover{
+.twitter div:hover{
     background-color: #1D9BF0;
+    border: #FFFFFF solid 2px;
 }
+
 
 .facebook{
     position:unset;
 }
+.facebook div{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-right: 1px;
+}
 .facebook span{    
     color: #FFFFFF!important;
 }
-.facebook span:hover{
-    background-color: #364577;
+.facebook div:hover{
+    background-color: #4867AA;
+    border: #FFFFFF solid 2px;
 }
 .réseau-social{
     position:unset;
 }
+.réseau-social div{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-left: 1px;
+}
 .réseau-social span{    
     color: #FFFFFF!important;
 }
-.réseau-social span:hover{
-    color: #FFFFFF!important;
+.réseau-social div:hover{
+    background-color: #F974A4;
+    border: #FFFFFF solid 2px;
 }
 .instagram{
     position:unset;
 }
-
+.instagram div{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-left: 1px;
+}
 .instagram span{    
     color: #FFFFFF!important;
 }
-.instagram span:hover{
-    color: #1D9BF0;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FFFFFF;
-    transform: ;
+.instagram div:hover{
+    background-color: #D7355C;
+    border: #FFFFFF solid 2px;
 }
 @media (min-width: 768px) {
     .facebook {

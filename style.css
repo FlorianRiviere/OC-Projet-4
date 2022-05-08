@@ -1055,6 +1055,15 @@ h4 {
 .site-navigation a{
     font-weight: 600;
 }
+h1{
+    text-shadow: 1px 1px 2px #000000;
+}
+h2{
+    text-shadow: 1px 1px 2px #000000;
+}
+.h2-shadow-none{
+    text-shadow: none;
+}
 
 .mini-titre{
     font-size: 16px;

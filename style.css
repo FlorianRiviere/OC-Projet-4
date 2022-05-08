@@ -1099,6 +1099,7 @@ h4 {
     color: #1D9BF0;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFFFFF;
+    transform: ;
 }
 @media (min-width: 768px) {
     .facebook {
@@ -1173,3 +1174,42 @@ footer .col-sm-12{
         width: 400px;
     }
 } 
+
+.formulary{
+    width: 100%;
+}
+@media (min-width: 900px){
+    .formulary{
+        width: 500px;
+    }
+}
+.formulary form{
+    width: 95%;
+}
+.form-group label{
+    font-size: large
+}
+.address{
+    padding: 0 0 0 0;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.address a{
+    text-decoration: underline;
+    color:#1241db!important;
+}
+.address a:hover{
+    color: #383838!important;
+}
+.address a:active{
+    color: #f00000!important;
+}
+
+.address p{
+    margin-left: 15px;
+}
+@media (min-width: 430px){
+    .address p{
+        margin-left: -50px;
+    }
+}

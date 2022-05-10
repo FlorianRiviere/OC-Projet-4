@@ -1255,12 +1255,12 @@ footer h2{
     text-decoration: underline;
     color:#1241db!important;
 }
-.address a:hover{
-    color: #383838!important;
-}
-.address a:active{
-    color: #f00000!important;
-}
+    .address a:hover{
+        color: #383838!important;
+    }
+        .address a:active{
+            color: #f00000!important;
+        }
 
 .address p{
     margin-left: 15px;

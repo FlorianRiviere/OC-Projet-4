@@ -1275,3 +1275,7 @@ footer h2{
 .black{
     color: #000000!important;
 }
+
+strong{
+    font-weight: normal;
+}

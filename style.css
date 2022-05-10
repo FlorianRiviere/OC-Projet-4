@@ -788,7 +788,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #A55E3C!important;
     color: #FFFFFF!important;
 }
 
@@ -1083,11 +1083,11 @@ h2{
     padding-left: 2px;
 }
 .twitter span{    
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 .twitter div:hover{
-    background-color: #1D9BF0;
-    border: #FFFFFF solid 2px;
+    background-color: #259DEE;
+    border: #000000 solid 2px;
 }
 
 
@@ -1105,11 +1105,11 @@ h2{
     padding-right: 1px;
 }
 .facebook span{    
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 .facebook div:hover{
-    background-color: #4867AA;
-    border: #FFFFFF solid 2px;
+    background-color: #7E96C8;
+    border: #000000 solid 2px;
 }
 .réseau-social{
     position:unset;
@@ -1125,12 +1125,13 @@ h2{
     padding-left: 1px;
 }
 .réseau-social span{    
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 .réseau-social div:hover{
-    background-color: #F974A4;
-    border: #FFFFFF solid 2px;
+    background-color: #F1709F;
+    border: #000000 solid 2px;
 }
+
 .instagram{
     position:unset;
 }
@@ -1145,12 +1146,13 @@ h2{
     padding-left: 1px;
 }
 .instagram span{    
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 .instagram div:hover{
-    background-color: #D7355C;
-    border: #FFFFFF solid 2px;
+    background-color: #F16585;
+    border: #000000 solid 2px;
 }
+
 @media (min-width: 768px) {
     .facebook {
         bottom: 0px;
@@ -1204,6 +1206,8 @@ figcaption{
 footer h2{
     margin-top: -10px;
     margin-bottom: 20px;
+    text-shadow: none;
+    color: #000000!important;
 }
 footer .container{
     max-height: 110px;
@@ -1266,4 +1270,7 @@ footer .col-sm-12{
     .address p{
         margin-left: -50px;
     }
+}
+.black{
+    color: #000000!important;
 }

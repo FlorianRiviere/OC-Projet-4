@@ -1086,15 +1086,19 @@ h1{
             color: #000000!important;
         }
             .twitter div:hover{
-                background-color: #50B0F1;
+                background-color: #FFFFFF;
+                border: #000000 solid 2px;
+            }
+            .twitter div:focus{
+                background-color: #FFFFFF;
                 border: #000000 solid 2px;
             }
             .twitter div:active{
-                background-color: #1079CB;
+                background-color: #FFFFFF;
             }
             .twitter div:active span{
-                background-color: #1079CB;
-                color: #FFFFFF!important;
+                background-color: #FFFFFF;
+                color: #1079CB!important;
             }
 
 .facebook{
@@ -1114,15 +1118,19 @@ h1{
             color: #000000!important;
         }
             .facebook div:hover{
-                background-color: #7E96C8;
+                background-color: #FFFFFF;
+                border: #000000 solid 2px;
+            }
+            .facebook div:focus{
+                background-color: #FFFFFF;
                 border: #000000 solid 2px;
             }
             .facebook div:active{
-                background-color: #38548F;
+                background-color: #FFFFFF;
             }
             .facebook div:active span{
-                background-color: #38548F;
-                color: #FFFFFF!important;
+                background-color: #FFFFFF;
+                color: #38548F!important;
             }
 
 .réseau-social{
@@ -1142,15 +1150,19 @@ h1{
             color: #000000!important;
         }
             .réseau-social div:hover{
-                background-color: #F08AAF;
+                background-color: #FFFFFF;
+                border: #000000 solid 2px;
+            }
+            .réseau-social div:focus{
+                background-color: #FFFFFF;
                 border: #000000 solid 2px;
             }
             .réseau-social div:active{
-                background-color: #CC4279;
+                background-color: #FFFFFF;
             }
             .réseau-social div:active span{
-                background-color: #CC4279;
-                color: #FFFFFF!important;
+                background-color: #FFFFFF;
+                color: #CC4279!important;
             }
 
 .instagram{
@@ -1170,14 +1182,21 @@ h1{
             color: #000000!important;
         }
             .instagram div:hover{
-                background-color: #F16585;
+                background-color: #FFFFFF;
+                border: #000000 solid 2px;
+            }
+            .instagram div:focus{
+                background-color: #FFFFFF;
                 border: #000000 solid 2px;
             }
             .instagram div:active{
-                background: linear-gradient(45deg,#EA8821, #CE0453, #B600B2);
+                background-color: #FFFFFF;
             }
             .instagram div:active span{
-                color: #FFFFFF!important;
+                background: -webkit-linear-gradient(45deg,#EA8821, #CE0453, #B600B2);
+                background-clip:text;
+                -webkit-background-clip: text;
+                color: transparent!important;
             }
 
 @media (min-width: 768px) {

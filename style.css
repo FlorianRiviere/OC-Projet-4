@@ -299,6 +299,8 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    position: relative;
+    z-index: 2;
 }
 
 .navbar-brand img {
@@ -1043,6 +1045,9 @@ h4 {
 
 
 /* Ajouts */
+header a{
+    z-index: 1000;
+}
 
 .site-navigation li{
     margin: 0 10px 0 10px;

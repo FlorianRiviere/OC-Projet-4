@@ -788,7 +788,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #A55E3C!important;
+    background: #EF763E!important;
     color: #FFFFFF!important;
 }
 
@@ -1081,10 +1081,16 @@ h1{
             color: #000000!important;
         }
             .twitter div:hover{
-                background-color: #259DEE;
+                background-color: #50B0F1;
                 border: #000000 solid 2px;
             }
-
+            .twitter div:active{
+                background-color: #1079CB;
+            }
+            .twitter div:active span{
+                background-color: #1079CB;
+                color: #FFFFFF!important;
+            }
 
 .facebook{
     position:unset;
@@ -1106,6 +1112,13 @@ h1{
                 background-color: #7E96C8;
                 border: #000000 solid 2px;
             }
+            .facebook div:active{
+                background-color: #38548F;
+            }
+            .facebook div:active span{
+                background-color: #38548F;
+                color: #FFFFFF!important;
+            }
 
 .réseau-social{
     position:unset;
@@ -1124,8 +1137,15 @@ h1{
             color: #000000!important;
         }
             .réseau-social div:hover{
-                background-color: #F1709F;
+                background-color: #F08AAF;
                 border: #000000 solid 2px;
+            }
+            .réseau-social div:active{
+                background-color: #CC4279;
+            }
+            .réseau-social div:active span{
+                background-color: #CC4279;
+                color: #FFFFFF!important;
             }
 
 .instagram{
@@ -1147,6 +1167,12 @@ h1{
             .instagram div:hover{
                 background-color: #F16585;
                 border: #000000 solid 2px;
+            }
+            .instagram div:active{
+                background: linear-gradient(45deg,#EA8821, #CE0453, #B600B2);
+            }
+            .instagram div:active span{
+                color: #FFFFFF!important;
             }
 
 @media (min-width: 768px) {
@@ -1273,6 +1299,9 @@ footer h2{
 
 
 .black{
+    color: #000000!important;
+}
+.black:hover{
     color: #000000!important;
 }
 

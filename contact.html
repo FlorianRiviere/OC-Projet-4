@@ -89,29 +89,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate data-success-msg="Votre message a été envoyé." data-fail-msg="Désolé, il semblerait que notre serveur mail ne réponde pas, Désolé pour le désagrément !">
 					<div class="form-group">
-						<label>
-							Nom
-							<input id="name" class="form-control" required />
-						</label>	
+						<label for="nom">Nom</label>
+						<input id="name" class="form-control" required />
 					</div>
+
 					<div class="form-group">
-						<label>
-							Adresse email
-							<input id="email" class="form-control" type="email" required />
-						</label>
+						<label for="email">Adresse email</label>
+						<input id="email" class="form-control" type="email" required />
 					</div>
+
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-							<input class="form-control" type="email" required id="input_504" />
-						</label>
+						<label for="connu">Comment nous avez-vous connu ?</label>
+						<textarea class="form-control" name="connu" required id="input_504"></textarea>
 					</div>
+
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-						</label>
+						<label for="profet">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label><br>
+						<textarea id="message" class="form-control" name="projet" rows="4" cols="50" required></textarea>
 					</div> 
+
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine black" type="submit">
 						Envoyer
 					</button>

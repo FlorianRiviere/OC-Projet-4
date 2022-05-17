@@ -10,15 +10,7 @@ header a{
     .site-navigation a{
         font-weight: 600;
     }
-h1{
-    text-shadow: 1px 1px 2px #000000;
-}
-    h2{
-        text-shadow: 1px 1px 2px #000000;
-    }
-        .h2-shadow-none{
-            text-shadow: none;
-        }
+
 
 .mini-titre{
     font-size: 16px;
@@ -224,7 +216,6 @@ blockquote{
 footer h2{
     margin-top: -10px;
     margin-bottom: 20px;
-    text-shadow: none;
     color: #000000!important;
 }
     footer .container{
@@ -306,10 +297,4 @@ strong{
 
 .portfolio-row .col-sm-6{
     height: 100%;
-}
-
-.contact{
-    text-shadow: 1px;
-    margin-top: 50px;
-    font-size: 2em;
 }

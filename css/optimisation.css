@@ -10,13 +10,7 @@ a:focus{
     border: #000000 solid;
     background-color: #EF763E!important;
 }
-h1:focus,
-h2:focus,
-h3:focus{
-    border: #000000 solid;
-}
-section:focus{
-    border: #000000 solid;
+
 }
 
 .site-navigation li{
@@ -31,76 +25,157 @@ section:focus{
     font-size: 16px;
 }
 
-.social{
-    width: 40px;
-    height: 40px;
-    border-radius: 13px 13px 13px 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: #000000 solid;
-    margin: 0; 
+.twitter{
+    position:unset;
 }
-
-    .social span{
-        color: #000000!important;
+    .twitter div{
+        width: 40px;
+        height: 40px;
+        border-radius: 13px 13px 13px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2px;
+        padding-left: 2px;
     }
-        .social:focus,
-        .social:hover{
-            background-color: #000000;
+        .twitter span{    
+            color: #000000!important;
         }
+            .twitter div:hover{
+                background-color: #000000;
+            }
+            .twitter div:hover span{
+                color: #FFFFFF!important;
+            }
+            .twitter div:focus{
+                background-color: #000000;
+            }
+            .twitter div:focus{
+                color: #FFFFFF!important;
+            }
+            .twitter div:active{
+                background-color: #000000;
+            }
+            .twitter div:active span{
+                background-color: #000000;
+                color: #2fa5ff!important;
+            }
 
-
-    .twitter{
-        position:unset;
+.facebook{
+    position:unset;
+}
+    .facebook div{
+        width: 40px;
+        height: 40px;
+        border-radius: 13px 13px 13px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4px;
+        padding-right: 1px;
     }
-        .twitter .social{
+        .facebook span{    
+            color: #000000!important;
         }
-            .twitter .social:focus span,
-            .twitter .social:hover span{
-                color: #11acff!important;
-            }            
-
-    .facebook{
-        position:unset;
-    }
-        .facebook .social{
-            padding-top: 4px;
-            padding-right: 1px;    
-        }
-            .facebook .social:focus span,
-            .facebook .social:hover span{
+            .facebook div:hover{
+                background-color: #000000;
+            }
+            .facebook div:hover span{
+                color: #FFFFFF!important;
+            }
+            .facebook div:focus{
+                background-color: #000000;
+            }
+            .facebook div:focus span{
+                color: #FFFFFF!important;
+            }
+            .facebook div:active{
+                background-color: #000000;
+            }
+            .facebook div:active span{
+                background-color: #000000;
                 color: #6693F5!important;
             }
 
-.dribbble{
+.réseau-social{
     position:unset;
 }
-    .dribbble .social{
+    .réseau-social div{
+        width: 40px;
+        height: 40px;
+        border-radius: 13px 13px 13px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1px;
+        padding-left: 1px;
     }
-        .dribbble .social:focus span,
-        .dribbble .social:hover span{
-            color: #ff76ad!important;
+        .réseau-social span{    
+            color: #000000!important;
         }
+            .réseau-social div:hover{
+                background-color: #000000;
+            }
+            .réseau-social div:hover span{
+                color: #FFFFFF!important;
+            }
+            .réseau-social div:focus{
+                background-color: #000000;
+            }
+            .réseau-social div:focus span{
+                color: #FFFFFF!important;
+            }
+            .réseau-social div:active{
+                background-color: #000000;
+            }
+            .réseau-social div:active span{
+                background-color: #000000;
+                color: #ff76ad!important;
+            }
 
 .instagram{
     position:unset;
 }
-    .instagram .social{
+    .instagram div{
+        width: 40px;
+        height: 40px;
+        border-radius: 13px 13px 13px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1px;
+        padding-left: 1px;
     }
-        .instagram .social:focus span,
-        .instagram .social:hover span{
-            background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
-            background-clip:text;
-            -webkit-background-clip: text;
-            color: transparent!important;
+        .instagram span{    
+            color: #000000!important;
         }
+            .instagram div:hover{
+                background-color: #000000;
+            }
+            .instagram div:hover span{
+                color: #FFFFFF!important;
+            }
+            .instagram div:focus{
+                background-color: #000000;
+            }
+            .instagram div:focus span{
+                color: #FFFFFF!important;
+            }
+            .instagram div:active{
+                background-color: #000000;
+            }
+            .instagram div:active span{
+                background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
+                background-clip:text;
+                -webkit-background-clip: text;
+                color: transparent!important;
+            }
 
 @media (min-width: 768px) {
     .facebook {
         bottom: 0px;
     }
-    .dribbble {
+    .réseau-social {
         bottom: 0px;
     }
     .instagram {
@@ -141,16 +216,18 @@ blockquote{
     .col-sm-6{
         width: 100%;
     }
-    .col-sm-6 a{
-        width: 320px;
-        height: 100%;
-    }
+        .col-sm-6 a{
+            width: 320px;
+            height: 100%;
+        }
     
-}
+
+
 footer h2{
     margin-top: -10px;
     margin-bottom: 20px;
     color: #000000!important;
+    font-size: 1em;
 }
     footer .container{
         max-height: 110px;
@@ -161,36 +238,112 @@ footer h2{
             flex-direction: column;
             align-items: center;
         }
+.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #000000 solid;
+    margin: 0; 
+}
+
+    .social span{
+        color: #000000!important;
+    }
+        .social:focus,
+        .social:hover{
+            background-color: #000000;
+        }
+
+
+    .twitter{
+        position:unset;
+    }
+        .twitter .social:focus span,
+        .twitter .social:hover span{
+            color: #11acff!important;
+        }            
+
+    .facebook{
+        position:unset;
+    }
+        .facebook .social{
+            padding-top: 4px;
+            padding-right: 1px;    
+        }
+            .facebook .social:focus span,
+            .facebook .social:hover span{
+                color: #6693F5!important;
+            }
+
+    .dribbble{
+        position:unset;
+    }
+        .dribbble .social:focus span,
+        .dribbble .social:hover span{
+            color: #ff76ad!important;
+        }
+
+    .instagram{
+        position:unset;
+    }
+    
+        .instagram .social:focus span,
+        .instagram .social:hover span{
+            background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
+            background-clip:text;
+            -webkit-background-clip: text;
+            color: transparent!important;
+        }
+
+@media (min-width: 768px) {
+    .facebook {
+        bottom: 0px;
+    }
+    .dribbble {
+        bottom: 0px;
+    }
+    .instagram {
+        bottom: 0px;
+    }
+}
+
+
+}
     @media (max-width: 371.5px){
         footer{
             height: 150px;
         }
     }
 
+
 .social-flex{
-    width: 320px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-    @media (min-width: 400px){
-        .social-flex{
-            width: 400px;
-        }
-    } 
-    @media (min-width: 768px){
-        .social-flex{
-            margin-left: 52px;
-        }
+@media (min-width: 400px){
+    .social-flex{
+        width: 400px;
     }
 
+
+} 
+@media (min-width: 768px){
+    .social-flex{
+        margin-left: 52px;
+    }
+}
 .formulary{
     width: 100%;
 }
-    @media (min-width: 900px){
-        .formulary{
-            width: 500px;
-        }
+@media (min-width: 900px){
+    .formulary{
+        width: 500px;
     }
+}
     .formulary form{
         width: 95%;
     }
@@ -203,11 +356,95 @@ footer h2{
     margin-right: 20px;
     margin-left: 0px;
 }
+.address a{
+    text-decoration: underline;
+    color:#1241db!important;
+}
+    .address a:hover{
+        color: #383838!important;
+    }
+        .address a:active{
+            color: #f00000!important;
+        }
+
+.address p{
+    margin-left: 15px;
+}
+@media (min-width: 430px){
+    .address p{
+        margin-left: -50px;
+    }
+}
+
+
+.black{
+    color: #000000!important;
+}
+.black:hover{
+    color: #000000!important;
+}
+
+strong{
+    font-weight: normal;
+}
+
+.portfolio-row .col-sm-6{
+    height: 100%;
+}
+
+.contact{
+    font-size: 2em;
+}
+
+.scrollToTop{
+    background-color: #311E16;
+}
+.scrollToTop span{
+    color: #D2CECC;
+}
+    .scrollToTop:hover,
+    .scrollToTop:focus {
+        background-color: #000000;
+    }
+    .scrollToTop:hover span,
+    .scrollToTop:focus span{
+        color: #ffffff;
+    }
+
+.formulary{
+    width: 100%;
+}
+    @media (min-width: 900px){
+        .formulary{
+            width: 500px;
+        }
+    }
+
+    .formulary form{
+        width: 95%;
+    }
+        .form-group label{
+            font-size: large
+        }
+    .form-precision{
+        font-style: italic;
+        font-size: medium;
+        margin-left: 35px;
+        margin-bottom: 15px;
+        color: #f00000;
+    }
+
+.address{
+    padding: 0 0 0 0;
+    margin-right: 20px;
+    margin-left: 0px;
+}
     .address a{
         text-decoration: underline;
         color:#1241db!important;
     }
-        .address a:hover{
+        .address a:hover,
+        .address a:focus{
             color: #383838!important;
         }
             .address a:active{
@@ -222,29 +459,4 @@ footer h2{
                 margin-left: -50px;
             }
         }
-
-
-.black{
-    color: #000000!important;
-}
-    .black:hover{
-        color: #000000!important;
-    }
-
-strong{
-    font-weight: normal;
-}
-
-.portfolio-row .col-sm-6{
-    height: 100%;
-}
-
-.contact{
-    font-size: 2em;
-}
-
-*{
-    z-index: initial!important;
-}
-
 

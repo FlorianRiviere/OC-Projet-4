@@ -1,5 +1,10 @@
 a:focus{
     color: #000000!important;
+    border: #000000 solid 2px;
+}
+button:focus{
+    border: #000000 solid 2px;
+    background-color: #c27956;
 }
 
 .site-navigation li{
@@ -13,158 +18,98 @@ a:focus{
 .mini-titre{
     font-size: 16px;
 }
-
-.twitter{
-    position:unset;
-}
-    .twitter div{
+.social{
         width: 40px;
         height: 40px;
         border-radius: 13px 13px 13px 13px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 2px;
-        padding-left: 2px;
+        border: #000000 solid;
+}
+    .social span{
+        color: #000000!important;
     }
-        .twitter span{    
-            color: #000000!important;
+    .social:focus,
+    .social:hover{
+        background-color: #000000;
+    }
+    
+
+
+    .twitter{
+        position:unset;
+    }
+        
+            .twitter span{
+                padding-top: 2px;
+                padding-left: 2px;
+            }
+                .twitter .social:hover span,
+                .twitter .social:focus span{
+                    color: #2fa5ff!important;
+                }
+                .twitter .social:active span{
+                    color: #ffffff!important;
+                }
+
+    .facebook{
+        position:unset;
+    }
+        .facebook span{
+            padding-top: 4px;
+            padding-right: 1px;
         }
-            .twitter div:hover{
-                background-color: #000000;
+            .facebook span{    
+                color: #000000!important;
             }
-            .twitter div:hover span{
-                color: #FFFFFF!important;
+            .facebook .social:hover span,
+            .facebook .social:focus span{
+                    color: #6693F5!important;
             }
-            .twitter div:focus{
-                background-color: #000000;
-            }
-            .twitter div:focus{
-                color: #FFFFFF!important;
-            }
-            .twitter div:active{
-                background-color: #000000;
-            }
-            .twitter div:active span{
-                background-color: #000000;
-                color: #2fa5ff!important;
+            .facebook .social:active span{
+                    color: #ffffff!important;
             }
 
-.facebook{
-    position:unset;
-}
-    .facebook div{
-        width: 40px;
-        height: 40px;
-        border-radius: 13px 13px 13px 13px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 4px;
-        padding-right: 1px;
+    .dribbble{
+        position:unset;
     }
-        .facebook span{    
-            color: #000000!important;
+        .dribbble span{
+            padding-top: 1px;
+            padding-left: 1px;
         }
-            .facebook div:hover{
-                background-color: #000000;
-            }
-            .facebook div:hover span{
-                color: #FFFFFF!important;
-            }
-            .facebook div:focus{
-                background-color: #000000;
-            }
-            .facebook div:focus span{
-                color: #FFFFFF!important;
-            }
-            .facebook div:active{
-                background-color: #000000;
-            }
-            .facebook div:active span{
-                background-color: #000000;
-                color: #6693F5!important;
-            }
-
-.réseau-social{
-    position:unset;
-}
-    .réseau-social div{
-        width: 40px;
-        height: 40px;
-        border-radius: 13px 13px 13px 13px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 1px;
-        padding-left: 1px;
-    }
-        .réseau-social span{    
-            color: #000000!important;
-        }
-            .réseau-social div:hover{
-                background-color: #000000;
-            }
-            .réseau-social div:hover span{
-                color: #FFFFFF!important;
-            }
-            .réseau-social div:focus{
-                background-color: #000000;
-            }
-            .réseau-social div:focus span{
-                color: #FFFFFF!important;
-            }
-            .réseau-social div:active{
-                background-color: #000000;
-            }
-            .réseau-social div:active span{
-                background-color: #000000;
+            .dribbble .social:hover span,
+            .dribbble .social:focus span{
                 color: #ff76ad!important;
             }
+            .dribbble .social:active span{
+                color: #ffffff!important;
+            }
 
-.instagram{
-    position:unset;
-}
-    .instagram div{
-        width: 40px;
-        height: 40px;
-        border-radius: 13px 13px 13px 13px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 1px;
-        padding-left: 1px;
+    .instagram{
+        position:unset;
     }
-        .instagram span{    
-            color: #000000!important;
+        .instagram span{
+            padding-top: 1px;
+            padding-left: 1px;
         }
-            .instagram div:hover{
-                background-color: #000000;
-            }
-            .instagram div:hover span{
-                color: #FFFFFF!important;
-            }
-            .instagram div:focus{
-                background-color: #000000;
-            }
-            .instagram div:focus span{
-                color: #FFFFFF!important;
-            }
-            .instagram div:active{
-                background-color: #000000;
-            }
-            .instagram div:active span{
-                background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
-                background-clip:text;
-                -webkit-background-clip: text;
-                color: transparent!important;
-            }
+        .instagram .social:hover span,
+        .instagram .social:focus span{
+            background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
+            background-clip:text;
+            -webkit-background-clip: text;
+            color: transparent!important;
+        }
+        .instagram .social:active span{
+            color: #ffffff!important;
+            background-color: #000000;
+        }
 
 @media (min-width: 768px) {
     .facebook {
         bottom: 0px;
     }
-    .réseau-social {
+    .dribbble {
         bottom: 0px;
     }
     .instagram {
@@ -211,6 +156,12 @@ blockquote{
     }
     
 }
+
+@media (max-width:372px){
+    footer{
+        height: 150px;
+    }
+}
 footer h2{
     margin-top: -10px;
     margin-bottom: 20px;
@@ -227,20 +178,11 @@ footer h2{
         }
 
 .social-flex{
-    width: 100%;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
-@media (min-width: 400px){
-    .social-flex{
-        width: 400px;
-    }
-} 
-@media (min-width: 768px){
-    .social-flex{
-        margin-left: 52px;
-    }
-}
+
 .formulary{
     width: 100%;
 }

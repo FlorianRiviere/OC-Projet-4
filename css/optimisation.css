@@ -179,45 +179,10 @@ blockquote{
     display: flex;
     justify-content: space-between;
 }
-.formulary{
-    width: 100%;
-}
-@media (min-width: 900px){
-    .formulary{
-        width: 500px;
-    }
-}
-    .formulary form{
-        width: 95%;
-    }
-        .form-group label{
-            font-size: large
-        }
 
-.address{
-    padding: 0 0 0 0;
-    margin-right: 20px;
-    margin-left: 0px;
-}
-.address a{
-    text-decoration: underline;
-    color:#1241db!important;
-}
-    .address a:hover{
-        color: #383838!important;
-    }
-        .address a:active{
-            color: #f00000!important;
-        }
 
-.address p{
-    margin-left: 15px;
-}
-@media (min-width: 430px){
-    .address p{
-        margin-left: -50px;
-    }
-}
+
+
 
 
 .black{
@@ -254,15 +219,24 @@ strong{
         color: #ffffff;
     }
 
+    .formulary-section{
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
 .formulary{
     width: 100%;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-    @media (min-width: 900px){
-        .formulary{
-            width: 500px;
-        }
+    .formulary p{
+        margin-left: 10px;
     }
-
+    .formulary .col-sm-6{
+        width: 100%;
+    }
     .formulary form{
         width: 95%;
     }
@@ -277,11 +251,15 @@ strong{
         color: #f00000;
     }
 
-.address{
-    padding: 0 0 0 0;
-    margin-right: 20px;
-    margin-left: 0px;
-}
+    .formulary-section{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        max-width: none;
+        width: 100%;
+    }
+
+        
+
     .address a{
         text-decoration: underline;
         color:#1241db!important;
@@ -290,13 +268,41 @@ strong{
         .address a:focus{
             color: #383838!important;
         }
-
-.address p{
-    margin-left: 15px;
-}
-@media (min-width: 430px){
+        .address a:active{
+            color: #f00000!important;
+        }
     .address p{
-        margin-left: -50px;
+        width: 100%;
+    }
+
+.contact-section{
+    padding-bottom: 10px;
+}
+
+
+iframe{
+    padding: 0 0 0 0;
+    margin: 10px 0 0 0;
+}
+
+@media (min-width: 450px){
+    .formulary .col-sm-6{
+        width: 450px;
+    }
+    .address{
+        width: 450px;
     }
 }
-
+@media (min-width: 1000px){
+    .formulary-section{
+        width: 100%;
+    }
+    .formulary{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contact-section{
+        width: 100%;
+        padding-left: 0px;
+    }
+}

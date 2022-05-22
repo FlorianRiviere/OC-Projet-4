@@ -60,7 +60,9 @@ a:focus{
         display: flex;
         justify-content: center;
     }
-        
+        .facebook span{
+            margin-top: 2px;
+        }
         .facebook .social:hover span,
         .facebook .social:focus span{
             color: #6693F5!important;
@@ -244,6 +246,7 @@ strong{
             font-size: large
         }
     .form-precision{
+        width: 100%;
         font-style: italic;
         font-size: medium;
         margin-left: 35px;

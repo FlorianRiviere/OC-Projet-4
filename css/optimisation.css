@@ -117,6 +117,9 @@ blockquote{
     font-style: italic;
     margin-bottom: 10px;
 }
+blockquote p{
+    font-size: 1em;
+}
     figcaption{
         color: #333333;
     }

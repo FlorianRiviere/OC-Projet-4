@@ -207,6 +207,7 @@ strong{
 
 .contact{
     font-size: 2em;
+    margin-bottom: 50px;
 }
 
 .scrollToTop{
@@ -254,7 +255,7 @@ strong{
         font-size: medium;
         margin-left: 35px;
         margin-bottom: 15px;
-        color: #f00000;
+        color:#B30000;
     }
 
     .formulary-section{
@@ -275,7 +276,7 @@ strong{
             color: #383838!important;
         }
         .address a:active{
-            color: #f00000!important;
+            color: #B30000!important;
         }
     .address p{
         width: 100%;
@@ -311,9 +312,4 @@ iframe{
         width: 100%;
         padding-left: 0px;
     }
-}
-
-.map{
-    height: 500px;
-    width: 100%;
 }

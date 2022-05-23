@@ -312,3 +312,8 @@ iframe{
         padding-left: 0px;
     }
 }
+
+.map{
+    height: 500px;
+    width: 100%;
+}

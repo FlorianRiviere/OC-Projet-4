@@ -16,7 +16,7 @@
 	<script src="./js/jquery-2.1.0.min.js" async></script>
 	<script src="./js/bootstrap.min.js" async></script>	
 	<script src="./js/blocs.min.js" async></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 
     <title>Agence La Panthère - Web Designer</title>
 
@@ -56,12 +56,12 @@
 <!-- bloc-0 END -->
 <main role="main">
 <!-- bloc-1-presentation -->
-	<section aria-label="Présentation" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+	<section aria-labelledby="présentation" aria-describedby="Logo de l'entreprise ainsi que son nom et son activité" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
 					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo Agence La Panthère" />
-					<h1 class="text-center hero-bloc-text tc-white ">
+					<h1 id="présentation" class="text-center hero-bloc-text tc-white ">
 						Agence La Panthère<br/>-<br/>Web Design
 					</h1>
 				</div>
@@ -71,11 +71,11 @@
 	<!-- bloc-1-presentation END -->
 
 	<!-- bloc-2-services -->
-	<section aria-label="Services" class="bloc bgc-white l-bloc" id="bloc-2-services">
+	<section aria-labelledby="services" aria-describedby="Description en trois points de l'activité de l'entreprise ainsi que la citation d'un client" class="bloc bgc-white l-bloc" id="bloc-2-services">
 		<div class="container bloc-md">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2 class="h2-shadow-none">L'agence La Panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
+					<h2 id="services" class="h2-shadow-none">L'agence La Panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
 				</div>
 			</div>
 			<div class="row voffset-lg med-width-whitespace">
@@ -126,11 +126,11 @@
 	<!-- bloc-2-services END -->
 
 	<!-- bloc-3-what-i-do -->
-	<section aria-label="Activité" class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
+	<section aria-labelledby="but" aria-describedby="Énonciation de leur but" class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace black-background">
 				<div class="col-sm-12">
-					<h2 class="mg-md text-center tc-white">
+					<h2 id="but" class="mg-md text-center tc-white">
 						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 					</h2>
 					<p class="text-center white">
@@ -143,11 +143,11 @@
 	<!-- bloc-3-what-i-do END -->
 
 	<!-- bloc-4-portfolio -->
-	<section aria-label="Portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+	<section aria-labelledby="portfolio" aria-describedby="Portfolio de quatre résalisations par l'agence" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2 class="h2-shadow-none">Nous travaillons avec beaucoup de clients, <br/>voici nos réalisations</h2>
+					<h2 id="portfolio" class="h2-shadow-none">Nous travaillons avec beaucoup de clients, <br/>voici nos réalisations</h2>
 				</div>
 			</div>
 			<div class="portfolio-row">
@@ -197,14 +197,14 @@
 	<!-- ScrollToTop Button END-->
 
 	<!-- bloc-5-cta -->
-	<section aria-label="Contactez-nous" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+	<section aria-labelledby="contact" aria-describedby="Lien permettant d'aller à la page contact" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2 class="mg-md text-center tc-white">
+					<h2 id="contact" class="mg-md text-center tc-white">
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h2>
-					<a aria-label="Aller à la page contact" href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero black btn-focus">Contact</a>
+					<a aria-labelledby="contact" href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero black btn-focus">Contact</a>
 				</div>
 			</div>
 		</div>

@@ -233,6 +233,7 @@ strong{
 .formulary{
     width: 100%;
     padding: 0 0 0 0;
+    margin: 0 0 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -290,6 +291,8 @@ strong{
 iframe{
     padding: 0 0 0 0;
     margin: 10px 0 0 0;
+    width: 100%;
+    height: 420px;
 }
 
 @media (min-width: 450px){
